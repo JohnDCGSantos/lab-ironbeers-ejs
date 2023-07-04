@@ -1,0 +1,9 @@
+
+<h1>Beers</h1>
+
+
+  
+<%beersFromApi.forEach(beer => { %>
+  <%-include ('./partials/beer.ejs', { beer: beer }) %>
+<% }) %>
+
